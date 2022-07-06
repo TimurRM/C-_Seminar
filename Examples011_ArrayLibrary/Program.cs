@@ -43,13 +43,14 @@ int IndexOf(int[] collection, int find)
 int[] array = new int[10];
 
 FillArray(array);
-array[5] = 4;
-array[7] =4;
+// array[5] = 4;
+// array[7] = 4;
 
 PrintArray(array);
 Console.WriteLine();
 
-int pos = IndexOf(array, 4);
+int pos = IndexOf(array, 3);
+
 Console.WriteLine(pos);
 
  
